@@ -39,6 +39,12 @@ header {
 
 /* Footer */
 
+.hover-item:hover {
+    background-color: #2e2e2e;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 .footer-container {
     z-index: 9999;
     position: fixed;
