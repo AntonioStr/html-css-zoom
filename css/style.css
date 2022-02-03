@@ -16,14 +16,13 @@ header {
 }
 
 .top-box-header {
+    border: none;
     text-align: center;
     color: #fff;
     background-color: #4a4a4a;
 }
 
-.container {
-    background-color: grey;
-}
+/* Main */
 
 .card {
     background-image: url('https://picsum.photos/id/1/200/300');
@@ -36,4 +35,33 @@ header {
 .content-card {
     background-color: rgba(0, 0, 0, .5);
     color: #fff;
+}
+
+/* Footer */
+
+.footer-container {
+    z-index: 9999;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 8vh;
+    color: white;
+    background-color: #222222;
+}
+
+.footer-container .img-item {
+    font-size: 30px;
+}
+
+.footer-container .arrow {
+    font-size: 10px;
+}
+
+.controller-right {
+    background-color: #4a4a4a;
+    color: red;
+}
+
+#green {
+    color: #4ac800;
 }
